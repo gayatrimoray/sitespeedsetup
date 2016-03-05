@@ -33,8 +33,7 @@ sudo echo "deb https://apt.dockerproject.org/repo ubuntu-trusty main" >> /etc/ap
 sudo apt-get update
 sudo apt-get install -y linux-image-extra-$(uname -r)
 sudo apt-get install -y apparmor
-sudo apt-get install docker-engine
-sudo service docker start
+sudo apt-get install -y docker-engine
 
 echo "[Install] graphite"
 sudo mkdir -p /data/graphite/storage/whisper
