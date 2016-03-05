@@ -20,4 +20,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       vb.memory = 1024
       vb.cpus = 1
     end
+
+    config.vm.provision :shell, :path => "scripts/bootstrap.sh"
 end
