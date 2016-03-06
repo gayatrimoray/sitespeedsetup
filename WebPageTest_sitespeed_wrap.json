@@ -21,7 +21,7 @@
           "id": 13,
           "links": [],
           "mode": "markdown",
-          "span": 6,
+          "span": 12,
           "style": {},
           "title": "",
           "type": "text"
@@ -75,7 +75,7 @@
           "points": false,
           "renderer": "flot",
           "seriesOverrides": [],
-          "span": 6,
+          "span": 12,
           "stack": false,
           "steppedLine": false,
           "targets": [
@@ -475,7 +475,7 @@
     {
       "collapse": false,
       "editable": true,
-      "height": "250px",
+      "height": "400px",
       "panels": [
         {
           "aliasColors": {},
@@ -548,7 +548,7 @@
     {
       "collapse": false,
       "editable": true,
-      "height": "250px",
+      "height": "400px",
       "panels": [
         {
           "aliasColors": {},
