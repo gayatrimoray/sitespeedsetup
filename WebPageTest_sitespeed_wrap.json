@@ -12,10 +12,10 @@
     {
       "collapse": false,
       "editable": true,
-      "height": "200px",
+      "height": "150px",
       "panels": [
         {
-          "content": "Wrap Baseline using WebPageTest Tool /n /nWraps Tracked: Zulily: https://wrap.co/wraps/368a863e-8b72-4a84-88d6-bc073478318e /n Hawaiian:https://wrap.co/wraps/e2be006a-b32d-4603-b25a-fa69fe0386f0 /n/nConfig:/nLocation: Dulles /nDevice: Nexus 5 /nBrowser: Chrome /nConnection: Cable /nRuns Every: 30min",
+          "content": "##Wrap Baseline using WebPageTest Tool \n \n**Wraps Tracked:** Zulily: https://wrap.co/wraps/368a863e-8b72-4a84-88d6-bc073478318e \n Hawaiian:https://wrap.co/wraps/e2be006a-b32d-4603-b25a-fa69fe0386f0 \n\nConfig:\nLocation: Dulles \nBrowser: Chrome \nConnection: Cable \nRuns Every: 30min",
           "editable": true,
           "error": false,
           "id": 13,
@@ -25,7 +25,15 @@
           "style": {},
           "title": "",
           "type": "text"
-        },
+        }
+      ],
+      "title": ""
+    },
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "400px",
+      "panels": [
         {
           "aliasColors": {},
           "bars": false,
@@ -90,7 +98,7 @@
           ],
           "timeFrom": null,
           "timeShift": null,
-          "title": "Loadtime Wrap Baseline",
+          "title": "Wrap Loadtime Baseline",
           "tooltip": {
             "shared": true,
             "value_type": "cumulative"
@@ -156,32 +164,32 @@
           "targets": [
             {
               "refId": "A",
-              "target": "sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.SpeedIndex.median, 9)"
+              "target": "aliasByNode(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.SpeedIndex.median, 12)"
             },
             {
               "refId": "B",
-              "target": "sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.TTFB.median, 9)"
+              "target": "aliasByNode(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.TTFB.median, 12)"
             },
             {
               "refId": "C",
-              "target": "sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.firstPaint.median, 9)"
+              "target": "aliasByNode(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.firstPaint.median, 12)"
             },
             {
               "refId": "D",
-              "target": "sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.loadTime.median, 9)"
+              "target": "aliasByNode(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.requests.median, 12)"
             },
             {
               "refId": "E",
-              "target": "sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.render.median, 9)"
+              "target": "aliasByNode(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.render.median, 12)"
             },
             {
               "refId": "F",
-              "target": "sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.visualComplete.median, 9)"
+              "target": "aliasByNode(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.wpt.dulles.cable.chrome.firstView.visualComplete.median, 12)"
             }
           ],
           "timeFrom": null,
           "timeShift": null,
-          "title": "Timings Home Page [median first view]",
+          "title": "Timings - Hawaiian",
           "tooltip": {
             "shared": true,
             "value_type": "cumulative"
@@ -200,314 +208,93 @@
     {
       "collapse": false,
       "editable": true,
-      "height": "100px",
+      "height": "450px",
       "panels": [
         {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": false,
-          "colors": [
-            "rgba(245, 54, 54, 0.9)",
-            "rgba(237, 129, 40, 0.89)",
-            "rgba(50, 172, 45, 0.97)"
-          ],
+          "aliasColors": {},
+          "bars": false,
           "datasource": null,
           "editable": true,
           "error": false,
-          "format": "bytes",
-          "id": 3,
-          "interval": null,
-          "links": [],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "",
-          "prefixFontSize": "50%",
-          "span": 4,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
+          "fill": 0,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
           },
+          "id": 2,
+          "legend": {
+            "alignAsTable": true,
+            "avg": true,
+            "current": true,
+            "max": true,
+            "min": true,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 1,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": false,
+          "steppedLine": false,
           "targets": [
             {
               "refId": "A",
-              "target": "webpagetest.summary.www.nytimes.com.pagemetric.wpt.dulles.cable.chrome.firstView.bytesIn.median"
-            }
-          ],
-          "thresholds": "",
-          "title": "Median Page Size",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
+              "target": "aliasByNode(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.wpt.dulles.cable.chrome.firstView.SpeedIndex.median, 12)"
+            },
             {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
+              "refId": "B",
+              "target": "aliasByNode(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.wpt.dulles.cable.chrome.firstView.TTFB.median, 12)"
+            },
+            {
+              "refId": "C",
+              "target": "aliasByNode(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.wpt.dulles.cable.chrome.firstView.firstPaint.median, 12)"
+            },
+            {
+              "refId": "D",
+              "target": "aliasByNode(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.wpt.dulles.cable.chrome.firstView.requests.median, 12)"
+            },
+            {
+              "refId": "E",
+              "target": "aliasByNode(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.wpt.dulles.cable.chrome.firstView.render.median, 12)"
+            },
+            {
+              "refId": "F",
+              "target": "aliasByNode(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.wpt.dulles.cable.chrome.firstView.visualComplete.median, 12)"
             }
           ],
-          "valueName": "avg"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": false,
-          "colors": [
-            "rgba(245, 54, 54, 0.9)",
-            "rgba(237, 129, 40, 0.89)",
-            "rgba(50, 172, 45, 0.97)"
-          ],
-          "datasource": null,
-          "editable": true,
-          "error": false,
-          "format": "bytes",
-          "id": 4,
-          "interval": null,
-          "links": [],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "",
-          "prefixFontSize": "50%",
-          "span": 4,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Timings - Zulily",
+          "tooltip": {
+            "shared": true,
+            "value_type": "cumulative"
           },
-          "targets": [
-            {
-              "refId": "A",
-              "target": "webpagetest.summary.www.nytimes.com.pagemetric.wpt.dulles.cable.chrome.firstView.image_total.median"
-            }
-          ],
-          "thresholds": "",
-          "title": "Median Images Size",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "avg"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": false,
-          "colors": [
-            "rgba(245, 54, 54, 0.9)",
-            "rgba(237, 129, 40, 0.89)",
-            "rgba(50, 172, 45, 0.97)"
-          ],
-          "datasource": null,
-          "editable": true,
-          "error": false,
-          "format": "none",
-          "id": 5,
-          "interval": null,
-          "links": [],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "",
-          "prefixFontSize": "50%",
-          "span": 4,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "targets": [
-            {
-              "refId": "A",
-              "target": "webpagetest.summary.www.nytimes.com.pagemetric.wpt.dulles.cable.chrome.firstView.requests.median"
-            }
-          ],
-          "thresholds": "",
-          "title": "Median Requests",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "avg"
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "ms",
+            "short"
+          ]
         }
       ],
-      "showTitle": true,
-      "title": "First View"
-    },
-    {
-      "collapse": false,
-      "editable": true,
-      "height": "100px",
-      "panels": [
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": false,
-          "colors": [
-            "rgba(245, 54, 54, 0.9)",
-            "rgba(237, 129, 40, 0.89)",
-            "rgba(50, 172, 45, 0.97)"
-          ],
-          "datasource": null,
-          "editable": true,
-          "error": false,
-          "format": "bytes",
-          "id": 6,
-          "interval": null,
-          "links": [],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "",
-          "prefixFontSize": "50%",
-          "span": 4,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "targets": [
-            {
-              "refId": "A",
-              "target": "webpagetest.summary.www.nytimes.com.pagemetric.wpt.dulles.cable.chrome.repeatView.bytesIn.median"
-            }
-          ],
-          "thresholds": "",
-          "title": "Median Page Size",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "avg"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": false,
-          "colors": [
-            "rgba(245, 54, 54, 0.9)",
-            "rgba(237, 129, 40, 0.89)",
-            "rgba(50, 172, 45, 0.97)"
-          ],
-          "datasource": null,
-          "editable": true,
-          "error": false,
-          "format": "bytes",
-          "id": 7,
-          "interval": null,
-          "links": [],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "",
-          "prefixFontSize": "50%",
-          "span": 4,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "targets": [
-            {
-              "refId": "A",
-              "target": "webpagetest.summary.www.nytimes.com.pagemetric.wpt.dulles.cable.chrome.repeatView.image_total.median"
-            }
-          ],
-          "thresholds": "",
-          "title": "Median Images Size",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "avg"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": false,
-          "colors": [
-            "rgba(245, 54, 54, 0.9)",
-            "rgba(237, 129, 40, 0.89)",
-            "rgba(50, 172, 45, 0.97)"
-          ],
-          "datasource": null,
-          "editable": true,
-          "error": false,
-          "format": "none",
-          "id": 8,
-          "interval": null,
-          "links": [],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "",
-          "prefixFontSize": "50%",
-          "span": 4,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "targets": [
-            {
-              "refId": "A",
-              "target": "webpagetest.summary.www.nytimes.com.pagemetric.wpt.dulles.cable.chrome.repeatView.requests.median"
-            }
-          ],
-          "thresholds": "",
-          "title": "Median Requests",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "avg"
-        }
-      ],
-      "showTitle": true,
-      "title": "Repeat View"
+      "title": ""
     },
     {
       "collapse": false,
@@ -560,15 +347,15 @@
           "targets": [
             {
               "refId": "A",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.css.size, '30min')), 9)"
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.css.size, '30min')), 12)"
             },
             {
               "refId": "B",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.js.size, '30min')), 9)"
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.js.size, '30min')), 12)"
             },
             {
               "refId": "C",
-              "target": "aliasByNode(sumSeries(movingMedian(wsitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.image.size, '30min')), 12)"
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.image.size, '30min')), 12)"
             },
             {
               "refId": "D",
@@ -576,16 +363,12 @@
             },
             {
               "refId": "E",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.flash.size, '30min')), 12)"
-            },
-            {
-              "refId": "F",
               "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.type.doc.size, '30min')), 12)"
             }
           ],
           "timeFrom": null,
           "timeShift": null,
-          "title": "Size by type",
+          "title": "Size by type - Hawaiian",
           "tooltip": {
             "shared": true,
             "value_type": "individual"
@@ -604,7 +387,95 @@
     {
       "collapse": false,
       "editable": true,
-      "height": "450px",
+      "height": "250px",
+      "panels": [
+        {
+          "aliasColors": {
+            "js": "#6D1F62"
+          },
+          "bars": false,
+          "datasource": null,
+          "editable": true,
+          "error": false,
+          "fill": 3,
+          "grid": {
+            "leftLogBase": 1,
+            "leftMax": null,
+            "leftMin": null,
+            "rightLogBase": 1,
+            "rightMax": null,
+            "rightMin": null,
+            "threshold1": null,
+            "threshold1Color": "rgba(216, 200, 27, 0.27)",
+            "threshold2": null,
+            "threshold2Color": "rgba(234, 112, 112, 0.22)"
+          },
+          "id": 10,
+          "legend": {
+            "avg": false,
+            "current": true,
+            "max": true,
+            "min": false,
+            "show": true,
+            "total": false,
+            "values": true
+          },
+          "lines": true,
+          "linewidth": 2,
+          "links": [],
+          "nullPointMode": "connected",
+          "percentage": false,
+          "pointradius": 5,
+          "points": false,
+          "renderer": "flot",
+          "seriesOverrides": [],
+          "span": 12,
+          "stack": true,
+          "steppedLine": false,
+          "targets": [
+            {
+              "refId": "A",
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.requests.*.*.*.type.css.size, '30min')), 12)"
+            },
+            {
+              "refId": "B",
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.requests.*.*.*.type.js.size, '30min')), 12)"
+            },
+            {
+              "refId": "C",
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.requests.*.*.*.type.image.size, '30min')), 12)"
+            },
+            {
+              "refId": "D",
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.requests.*.*.*.type.font.size, '30min')), 12)"
+            },
+            {
+              "refId": "E",
+              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.requests.*.*.*.type.doc.size, '30min')), 12)"
+            }
+          ],
+          "timeFrom": null,
+          "timeShift": null,
+          "title": "Size by type - Zulily",
+          "tooltip": {
+            "shared": true,
+            "value_type": "individual"
+          },
+          "type": "graph",
+          "x-axis": true,
+          "y-axis": true,
+          "y_formats": [
+            "short",
+            "short"
+          ]
+        }
+      ],
+      "title": ""
+    },
+    {
+      "collapse": false,
+      "editable": true,
+      "height": "250px",
       "panels": [
         {
           "aliasColors": {},
@@ -625,16 +496,16 @@
             "threshold2": null,
             "threshold2Color": "rgba(234, 112, 112, 0.22)"
           },
-          "id": 11,
+          "id": 12,
           "legend": {
             "alignAsTable": true,
             "avg": false,
             "current": true,
+            "hideEmpty": true,
             "max": true,
             "min": false,
+            "rightSide": false,
             "show": true,
-            "sort": "max",
-            "sortDesc": true,
             "total": false,
             "values": true
           },
@@ -653,32 +524,12 @@
           "targets": [
             {
               "refId": "A",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.assets.cssimageWeight, '30min')), 9)"
-            },
-            {
-              "refId": "B",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.assets.cssWeight, '30min')), 9)"
-            },
-            {
-              "refId": "C",
-              "target": "aliasByNode(sumSeries(movingMedian(wsitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.assets.docWeight, '30min')), 12)"
-            },
-            {
-              "refId": "D",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.assets.flashWeight, '30min')), 12)"
-            },
-            {
-              "refId": "E",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.assets.fontWeight, '30min')), 12)"
-            },
-            {
-              "refId": "F",
-              "target": "aliasByNode(sumSeries(movingMedian(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.assets.iframeWeight, '30min')), 12)"
+              "target": "aliasByNode(sortByMaxima(maximumAbove(highestMax(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.timings.total, 10), 1000)),8,9,10)"
             }
           ],
           "timeFrom": null,
           "timeShift": null,
-          "title": "Top 10 domains with requests slower than 2 s",
+          "title": "Top 10 slowest requests - Hawaiian",
           "tooltip": {
             "shared": false,
             "value_type": "cumulative"
@@ -746,12 +597,12 @@
           "targets": [
             {
               "refId": "A",
-              "target": "aliasByNode(sortByMaxima(maximumAbove(highestMax(sitespeed.io.wrap.hawaiian.https.wrap_co._wraps_368a863e-8b72-4a84-88d6-bc073478318e.requests.*.*.*.timings.total, 10), 1000)), 5, 6, 7)"
+              "target": "aliasByNode(sortByMaxima(maximumAbove(highestMax(sitespeed.io.wrap.zulily.https.wrap_co._wraps_e2be006a-b32d-4603-b25a-fa69fe0386f0.requests.*.*.*.timings.total, 10), 1000)),8,9,10)"
             }
           ],
           "timeFrom": null,
           "timeShift": null,
-          "title": "Top 10 slowest requests (this take some time to generate, have faith!)",
+          "title": "Top 10 slowest requests - Zulily",
           "tooltip": {
             "shared": false,
             "value_type": "cumulative"
@@ -769,8 +620,8 @@
     }
   ],
   "time": {
-    "from": "now-7d",
-    "to": "now-60m"
+    "from": "now-1d",
+    "to": "now-30m"
   },
   "timepicker": {
     "collapse": false,
